@@ -1,0 +1,85 @@
+# Build outputs
+bin/
+out/
+build/
+target/
+dist/
+*.class
+*.jar
+*.war
+*.ear
+
+# Local generated artifacts
+docx_render_check/
+Scratch_Editor_Java_Interview_Guide.docx
+Detailed_Prep_Guide.pdf
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+sources.txt
+
+# Private notes, planning, audits, and interview prep
+# Keep README.md as the public project documentation.
+implementation_plan.md
+memory_concurrency_audit.md
+scalability_analysis.md
+*interview*
+*Interview*
+*prep*
+*Prep*
+*pitch*
+*Pitch*
+*notes*
+*Notes*
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+credentials.*
+secrets.*
+local.properties
+application-local.properties
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE/editor metadata
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.code-workspace
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Java tool caches
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+# Test and coverage outputs
+coverage/
+reports/
+test-output/
+surefire-reports/
